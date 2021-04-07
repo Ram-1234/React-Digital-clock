@@ -61,7 +61,7 @@ let h=time;
     return <>
             <div className="greet">
                 <h1><span style={{color:"darkred"}}>{good}</span><span style={cssStyle}>{greeting}</span></h1>
-                <p className="date"><span style={{color:"midnightblue"}}>R</span><span style={{color:"lightcoral"}}>A</span><span style={{color:"goldenrod"}}>M</span></p>
+                <p className="date">🙏<span style={{color:"midnightblue"}}>R</span><span style={{color:"lightcoral"}}>A</span><span style={{color:"goldenrod"},{fontFamily:"-moz-initial"}}>M</span>🙏</p>
                 <p className="date"><span style={{color:"lightcoral"}}>{day}</span>/<span style={{color:"goldenrod"}}>{month}</span>/<span style={{color:"midnightblue"}}>{year}</span></p>
                 <div className="timezone">
                     <h4><span style={{color:"skyblue"}}>{time}</span>:<span style={{color:"crimson"}}>{mint}</span>:<span style={{color:"green"}}>{sec}</span>{apm}</h4>
